@@ -1,12 +1,12 @@
-# gpt-office
+# tk-video-project
 
 TK 视频项目的工作区仓库,用于存放项目代码、素材说明与相关文档。
 
 ## 克隆
 
 ```bash
-git clone git@github.com:yeyeye227/gpt-office.git
-cd gpt-office
+git clone git@github.com:yeyeye227/tk-video-project.git
+cd tk-video-project
 ```
 
 本仓库使用 SSH 认证,推送前需先把本机公钥登记到 GitHub
@@ -28,10 +28,11 @@ cd gpt-office
 ## 目录结构
 
 ```
-gpt-office/
-├── README.md      本文件
-├── .gitignore     忽略规则
-└── .gitattributes 行尾策略
+tk-video-project/
+├── README.md       本文件
+├── .gitignore      忽略规则
+├── .gitattributes  行尾策略
+└── .editorconfig   编辑器编码与缩进规范
 ```
 
 后续按项目实际进展补充。
