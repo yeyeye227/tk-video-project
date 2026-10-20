@@ -1,0 +1,57 @@
+# ---------- 依赖与构建产物 ----------
+node_modules/
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- 环境变量与密钥 ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- 缓存与临时文件 ----------
+.cache/
+.temp/
+tmp/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------- IDE / 编辑器 ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---------- 本地数据与模型权重 ----------
+data/
+datasets/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# ---------- 大体积媒体(按需启用) ----------
+# 视频/音频素材体积大,建议走 LFS 或外部存储,不要直接进 Git
+# *.mp4
+# *.mov
+# *.wav
+# *.psd

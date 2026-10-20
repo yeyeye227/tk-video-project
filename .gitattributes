@@ -1,0 +1,26 @@
+# 统一行尾策略,避免 Windows / macOS / Linux 之间反复出现
+# 无意义的整文件 diff。
+* text=auto
+
+# 文本文件:仓库内统一存 LF,检出时按平台自动转换
+*.md   text
+*.txt  text
+*.json text
+*.yml  text
+*.yaml text
+*.js   text
+*.ts   text
+*.py   text
+*.sh   text
+
+# 二进制文件:禁止行尾转换与 diff
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.mp4  binary
+*.mov  binary
+*.wav  binary
